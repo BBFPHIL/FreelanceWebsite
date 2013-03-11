@@ -16,7 +16,7 @@
 
 	<!-- HEADER/Top part of site -->
 <div id="greeting">
-	<h1 class="name">PHILLIP WALKER</div>
+	<h1 class="name">PHILLIP WALKER</h1>
 
 	<!-- Navigation containger -->
 <div id="navigation_container">
@@ -41,6 +41,7 @@
 
 
 	<!-- end of container -->
+	</div>
 </div>
 
 	<div class="clear"></div>

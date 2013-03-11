@@ -1,7 +1,8 @@
 
 h1, h2, h3, h4, h5, h6, p{
-	color: #025E73;
-	padding: 10px;
+	color: #D9D59A;
+	padding: 12px;
+	font-family: sans-serif;
 	
 }
 
@@ -74,11 +75,61 @@ body{
    background: #037F8C;
    height: 200px;
    position: relative;
-   opacity: .3;
    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
    border-radius: 3px;
+   margin-left: 0;
 
 }
+
+/* Hi style */
+.hi {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Resume styling */
+
+#resume_container {
+   margin-top: 50px;
+   background: #037F8C;
+   height: 200px;
+   position: relative;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   margin-left: 0;
+
+}
+
+#resume{
+	margin: 10px 10px 0 10px;
+}
+
+.resume_head{
+	color: #D9D59A;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#resume_section_1 li{
+	list-style: none;
+	color: #D9D59A;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
