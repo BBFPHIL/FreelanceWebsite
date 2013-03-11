@@ -1,7 +1,5 @@
-<?php echo base_url();?>
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
 
 	<title>header page </title>
