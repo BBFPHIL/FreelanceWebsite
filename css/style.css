@@ -1,0 +1,84 @@
+
+h1, h2, h3, h4, h5, h6, p{
+	color: #025E73;
+	padding: 10px;
+	
+}
+
+body{
+	background-color: #D9D59A;
+}
+
+#wrapper{
+	margin:0 auto;
+	width: 960px;
+}
+
+#greeting .name{
+	text-align: center;
+	font-family:TitilliumText25L;
+	font-size: 3em;
+	color: #025E73;
+}
+
+/* SUCCESSFUL NAVIGATION HORIZONTAL BAR */
+
+#navigation li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 1em auto;
+    padding-right: 52px;
+}
+
+
+#navigation li a {
+    text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+    display: block;
+    text-decoration: none;
+    color: #D9BD6A;
+    font-size: 1.6em;
+    margin: 0 .5em;
+    font-family: TitilliumText25L;
+
+}
+
+#navigation li a:hover {
+   	margin-top: 5px;
+}
+
+#navigation_container {
+   margin: 0 auto;
+   width: 960px;
+}
+
+.rectangle {
+   background: #037F8C;
+   height: 62px;
+   position: relative;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   z-index: 500; /* the stack order: foreground */
+   margin: 3em 0;
+}
+
+/* SUCCESSFUL NAV HORIZONTAL BAR */
+
+
+/* Greeting Page */
+
+#hello_text {
+   background: #037F8C;
+   height: 200px;
+   position: relative;
+   opacity: .3;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+
+}
