@@ -16,9 +16,6 @@
 */
 $config['base_url']	= 'http://localhost:8888/ci/FreelanceWebsite/';
 
-//sending a document
-$config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
-
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -227,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'philUsa!24';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -250,7 +247,7 @@ $config['encryption_key'] = 'philUsa!24';
 $config['sess_cookie_name']		= 'ci_session';
 $config['sess_expiration']		= 7200;
 $config['sess_expire_on_close']	= FALSE;
-$config['sess_encrypt_cookie']	= TRUE;
+$config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'ci_sessions';
 $config['sess_match_ip']		= FALSE;

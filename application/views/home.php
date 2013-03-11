@@ -1,65 +1,16 @@
 
-
-
-	<!-- resume secion -->
-	<div id="resume">
-		
-		
-		
-		
-		
-		
-	</div>
-
-
-
-	<div class="clear"></div>
-
-
-
-	<!-- portfolio section --> 
-	<div id="portfolio">
-		
-		
-		
-		
-		
-	</div>
-
-
-	<div class="clear"></div>
-
-
-
-
-	<!-- mind section --> 
-	<div id="mind">
-		
-		
-		
-		
-		
-		
-	</div>
-
-	<div class="clear"></div>
-
-
-
-
-
-	<!-- contact section --> 
-	<div id="contact">
-		
-		
-		
-		
-	</div>
-
-</div>
-</div>
-
-
-
-
+<!-- CORE -->
+<div id="hello_text" class="container_16:after grid_5 ">
 	
+	<h2>Hi! My name is Phil and I make websites from front to back with <em>FULL STACK</em> skills</h2>
+	
+	<div id="enjoy" class="one"> </div>
+	<div id="enjoy" class="one"> </div>
+	<div id="enjoy" class="one"> </div>
+	
+</div>
+
+<!-- End of greeting home -->
+</div>
+
+
