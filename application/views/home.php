@@ -4,7 +4,7 @@
 	
 		<p><span class="hi">Hi!</span> <br/><br/>
 		My name is Phil and I make websites from front to back with <em>FULL STACK</em> skills. 
-		I can make any type of website from a small business website to a complex social user network. Go ahead and checkout the rest of
+		I make small business websites or complex social websites. Go ahead and checkout the rest of
 		my site to learn more about me!</p>
 	
 	<div id="enjoy" class="one"> </div>
@@ -43,7 +43,7 @@
 	<br/>
 	
 	<!-- Work Experience -->
-	<img src="<?php base_url();?>images/layers_32x28.png" class="education_symbol"\>
+	<img src="<?php base_url();?>images/layers_32x28.png"\>
 	<span class="resume_head">Work Experience</span>
 		
 		<ul id="resume_section">
@@ -122,7 +122,7 @@
 			</div>
 			<div class="ss-right">
 				<h3>
-					<span>March, 2013</span>
+					<span>March, 2013 | Professional Site, Law Firm</span>
 					<a href="#">Sussman-Frankel LLP</a>
 				</h3>
 			</div>
@@ -140,11 +140,11 @@
 		</div>
 		<div class="ss-row ss-medium">
 			<div class="ss-left">
-				<a href="#" class="ss-circle ss-circle-2"></a>
+				<a href="www.wundermind.com" class="ss-circle ss-circle-2"></a>
 			</div>
 			<div class="ss-right">
 				<h3>
-					<span>December, 2012</span>
+					<span>December, 2012 | eCommerce, Retail Site</span>
 					<a href="#">Pelican Breeze, LLC</a>
 				</h3>
 			</div>
@@ -160,5 +160,80 @@
 
 <!-- closing portfolio container -->
 </div>
+</div>
+
 
 <hr class="clear"/>
+
+
+<!-- mind container -->
+<div id="mind_container" class="container_16 grid_13">
+
+	<div class="mind">
+		<span class="resume_head">MIND</span> 
+		<br/>
+		
+		<!-- Skills! -->
+		<div class="skills">
+			<img src="<?php base_url();?>images/brush_32x32.png"\>
+			<span class="resume_head">Programming Skills</span>
+			<!-- GITHUB -->
+				
+			
+			<div class="skill_ratings">
+			
+			<!-- PHP & CodeIgniter -->
+			<h2>PHP/CodeIgniter</h2>
+			<div class="meter">
+				<span style="width: 60%"><span></span></span>
+			</div>
+
+			<h2>HTML5/CSS3</h2>
+			<div class="red meter">
+				<span style="width: 80%"></span>
+			</div>
+			
+			<h2>C++/C</h2>
+			<div class="orange meter">
+				<span style="width: 90%"></span>
+			</div>
+			
+			<h2>JQUERY/Javascript</h2>
+			<div class="meter">
+				<span style="width: 40%"></span>
+			</div>
+			
+			<h2>Python/Django</h2>
+			<div class="red meter">
+				<span style="width: 60%"></span>
+			</div>
+			
+			<h2>SQL</h2>
+			<div class="orange meter">
+				<span style="width: 80%"></span>
+			</div>
+					
+			<!-- close skills -->
+			</div>	
+			
+			
+		
+		</div>
+		
+	
+	</div>
+
+<!-- Closing out mind -->
+</div>
+
+
+
+
+<hr class="clear"/>
+
+
+
+
+
+
+
