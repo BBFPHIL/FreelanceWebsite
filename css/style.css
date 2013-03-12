@@ -1,13 +1,18 @@
 
-h1, h2, h3, h4, h5, h6, p{
-	color: #D9D59A;
-	padding: 12px;
+h1, h2, h3, h4, h5, h6{
+	color: #010D00;
 	font-family: sans-serif;
 	
 }
 
+p{
+	color: #010D00;
+	font-family: sans-serif;	
+	padding: 12px;
+}
+
 body{
-	background-color: #D9D59A;
+	background-color: #242625;
 }
 
 #wrapper{
@@ -37,7 +42,7 @@ body{
     text-shadow: 0 2px 1px rgba(0,0,0,0.5);
     display: block;
     text-decoration: none;
-    color: #D9BD6A;
+    color: #010D00;
     font-size: 1.6em;
     margin: 0 .5em;
     font-family: TitilliumText25L;
@@ -95,7 +100,7 @@ body{
 #resume_container {
    margin-top: 50px;
    background: #037F8C;
-   height: 200px;
+   height: 900px;
    position: relative;
    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
@@ -111,25 +116,232 @@ body{
 }
 
 .resume_head{
-	color: #D9D59A;
+	color: #010D00;
 	font-size: 2em;
 	font-weight: bold;
 	font-family: sans-serif;
 }
 
-#resume_section_1 li{
+#resume_section li{
+	padding-bottom: 5px;
 	list-style: none;
-	color: #D9D59A;
+	color: #010D00;
 	font-family: sans-serif;
 }
 
+/* Portfolio styling */
+
+#portfolio_container{
+	
+   margin-top: 50px;
+   background: #037F8C;
+   height: 1200px;
+   position: relative;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   margin-left: 0;
+	
+}
+
+.portfolio{
+	margin: 10px 10px 0 10px;
+}
+
+#site_desc{
+	
+	margin: 25px 50px 0 50px;
+	height: 100px;
+	
+}
+
+/* timeline JS styling */
+
+.ss-container{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 500px;
+}
+
+.ss-container:before{
+    position: absolute;
+    width: 4px;
+    background: rgba(17,17,22,0.8);
+    top: 0px;
+    left: 50%;
+    margin-left: -2px;
+    content: '';
+    height: 650px;
+}
+
+.ss-row{
+    width: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    padding: 30px 0;
+}
+
+.ss-left, .ss-right{
+    float: left;
+    width: 48%;
+    position: relative;
+}
+
+.ss-right{
+    padding-left: 2%;
+}
+
+.ss-left{
+    text-align: right;
+    float: left;
+    padding-right: 2%;
+}
+
+.ss-container h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #010D00;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    padding: 20px 0px;
+}
 
 
+.ss-container h3{
+    margin-top: 34px;
+    padding: 10px 15px;
+    background: rgba(26, 27, 33, 0.6);
+    text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8)
+}
 
+.ss-circle{
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    text-indent: -9000px;
+    text-align: left;
+    box-shadow: 
+        0px 2px 5px rgba(0,0,0,0.7) inset, 
+        0px 0px 0px 12px rgba(61,64,85,0.3);
+    background-size: cover;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
+.ss-small .ss-circle{
+    width: 100px;
+    height: 100px;
+}
 
+.ss-medium .ss-circle{
+    width: 200px;
+    height: 200px;
+}
 
+.ss-large .ss-circle{
+    width: 300px;
+    height: 300px;
+}
 
+.ss-left .ss-circle{
+    float: right;
+    margin-right: 30%;
+}
 
+.ss-right .ss-circle{
+    float: left;
+    margin-left: 30%;
+}
 
+.ss-circle-deco:before{
+    width: 29%;
+    height: 0px;
+    border-bottom: 5px dotted #ddd;
+    border-bottom: 5px dotted rgba(17, 17, 22, 0.3);
+    box-shadow: 0px 1px 1px #fff;
+    position: absolute;
+    top: 50%;
+    content: '';
+    margin-top: -3px;
+}
 
+.ss-left .ss-circle-deco:before{
+    right: 2%;   
+}
+
+.ss-right .ss-circle-deco:before{
+    left: 2%;   
+}
+
+.ss-circle-deco:after{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.ss-left .ss-circle-deco:after{
+    right: 0;
+    border-right: 10px solid rgba(17,17,22,0.8);
+}
+
+.ss-right .ss-circle-deco:after{
+    left: 0;
+    border-left: 10px solid rgba(17,17,22,0.8);
+}
+
+.ss-container .ss-medium h3{
+    margin-top: 82px;
+}
+
+.ss-container .ss-large h3{
+    margin-top: 133px;
+}
+
+.ss-container .ss-left h3{
+    border-right: 5px solid rgba(164,166,181,0.8);
+}
+
+.ss-container .ss-right h3{
+    border-left: 5px solid rgba(164,166,181,0.8);
+}
+
+.ss-container h3 span{
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.ss-container h3 a{
+    font-size: 28px;
+    color: rgba(255,255,255,0.9);
+    display: block;
+}
+
+.ss-container h3 a:hover{
+    color: rgba(255,255,255,1);
+}
+
+/*Portfolio Circle images */
+.ss-circle-1{
+    background-image:url(../images/s&f_5.png);
+}
+
+.ss-circle-2{
+    background-image: url(../images/pelicanbreeze.png);
+}
+
+.ss-circle-3{
+    background-image: url(../images/3.jpg);
+}

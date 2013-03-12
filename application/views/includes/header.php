@@ -6,6 +6,7 @@
 	
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/960.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+
 	
 </head>
 
