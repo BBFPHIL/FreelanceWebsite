@@ -1,16 +1,39 @@
 
 <!-- CORE -->
 <div id="hello_text" class="container_16 grid_13 ">
-	
+	<div id="hello">
 		<p><span class="hi">Hi!</span> <br/><br/>
 		My name is Phil and I make websites from front to back with <em>FULL STACK</em> skills. 
-		I make small business websites or complex social websites. Go ahead and checkout the rest of
-		my site to learn more about me!</p>
+		I make...</p>
+		
+		<div id="products">
+		
+			<div class="prod_1">
+				<img src="<?php base_url();?>images/pen_alt_stroke_32x32.png"\>
+			</div>
+			
+			<div class="prod_2">
+				<img src="<?php base_url();?>images/pen_alt_stroke_32x32.png"\>
+			</div>
+			
+			<div class="prod_3">
+				<img src="<?php base_url();?>images/pen_alt_stroke_32x32.png"\>
+			</div>
+			
+			<!-- Close products -->
+		</div>
+			
+			
+			
+		<br/>
+		<p>Go ahead and checkout the rest of my site to learn more about me!</p>
 	
+	<!--
 	<div id="enjoy" class="one"> </div>
 	<div id="enjoy" class="one"> </div>
 	<div id="enjoy" class="one"> </div>
-	
+	-->
+	</div>
 </div>
 
 
@@ -231,7 +254,40 @@
 
 <hr class="clear"/>
 
+<!-- load contact form view! -->
 
+<div id="contact_container" class="container_16 grid_13">
+<div class="contact">
+<!-- simple contact form -->
+	<div id="content">
+		<h1> Contact me </h1>
+ 
+		<form action=" " method="post"  autocomplete="on">
+			<p> <label for="username" class="iconic user" > Name <span class="required">*</span></label> <input type="text" name="username" id="username"  		required="required" placeholder="Hi, what's your name ?"  /> </p>
+ 
+			<p> <label for="usermail" class="iconic mail-alt"> E-mail address <span class="required">*</span></label> <input type="email" name="usermail" id="usermail" placeholder="I promise I hate spam as much as you do" required="required"  /> </p>
+ 
+			<p> <label for="usersite" class="iconic link"> Website </label> <input type="url" name="usersite" id="usersite"  placeholder="e.g.: http://www.wundermind.com" /> </p>
+ 
+			<p> <label for="subject" class="iconic quote-alt"> Subject </label> <input type="text" name="subject" id="subject"  placeholder="What would you like to talk about ?" /> </p>
+ 
+			<p> <label for="message" class="iconic comment"> Message  <span class="required">*</span></label> <textarea placeholder="Leave me a message and I'll answer in 24 hours "  required="required" ></textarea> </p>
+ 
+			<p class="indication"> All fields with a <span class="required">*</span> are required</p>
+ 
+			<input type="submit" value="Send !" />      
+		</form>   
+      
+      <!-- content id end -->                    
+	</div>
+
+<!-- contact end -->
+</div>
+<!-- contact container end -->
+</div>
+
+
+<hr class="clear"/>
 
 
 

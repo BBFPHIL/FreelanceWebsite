@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/960.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
 	<script type="text/javascript" src="<?php echo base_url();?>js/scripts.js" ></script>
+	<link href='http://fonts.googleapis.com/css?family=Questrial|Droid+Sans|Alice' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
 	
 </head>
 
